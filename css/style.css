@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    background: url(../images/flat-lay-workstation-with-copy-space-laptop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+    margin: auto;
+    padding: 100px 40px;
+    background-attachment: fixed;
+}
+
+.main{
+   
+width: 45%;
+   
+margin-left: 30px;
+}
+.main h1{
+    
+color: #cccccc;
+    
+text-align: center;
+    
+margin-bottom: 40px;
+    
+text-transform: capitalize;
+    
+font-size: 30px;
+    
+font-family: 'Poppins', sans-serif;
+}
+.name{
+
+display: flex;
+
+justify-content: space-between;
+}
+.name-f{
+
+width: 48%;
+}
+.name-f label{color: #c8c8c8;font-family: 'Poppins', sans-serif;}
+.name-f input{
+
+border: 1px solid #6c6b6b;
+
+background: transparent;
+
+border-radius: 15px;
+
+padding: 8px 0px;
+}
+form label{color: #c8c8c8;font-family: 'Poppins', sans-serif;}
+form input{
+
+border: 1px solid #6c6b6b;
+
+background: transparent;
+
+border-radius: 15px;
+
+padding: 8px 0px;
+
+width: 100%;
+
+margin-bottom: 23px;
+
+font-family: 'Poppins', sans-serif;
+}
+.button{text-align: center;}
+.button input{
+
+width: auto;
+
+padding: 14px 20px;
+
+border-radius: 23px;
+
+background-color: #6c6b6b;
+
+color: #b7e4ffbd;
+
+box-shadow: 0px 0px 11px 1px;
+
+margin-top: 20px;
+
+font-family: 'Poppins', sans-serif;
+}
+.check input{
+
+width: auto;
+}
+.check{
+    color: #c8c8c8;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
